@@ -1,70 +1,28 @@
 webpackHotUpdate("static/development/pages/index.js",{
 
-/***/ "./components/head.js":
-/*!****************************!*\
-  !*** ./components/head.js ***!
-  \****************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./node_modules/@popmotion/easing/dist/easing.es.js":
+false,
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/su/Projects/cb/website/components/head.js";
+/***/ "./node_modules/@popmotion/popcorn/dist/popcorn.es.js":
+false,
 
+/***/ "./node_modules/framesync/dist/framesync.es.js":
+false,
 
-/* harmony default export */ __webpack_exports__["default"] = (function () {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 4
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, "My page title"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
-    name: "viewport",
-    content: "initial-scale=1.0, width=device-width",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, "Hello world!"));
-});
+/***/ "./node_modules/hey-listen/dist/hey-listen.es.js":
+false,
 
-/***/ }),
+/***/ "./node_modules/popmotion/dist/popmotion.es.js":
+false,
 
-/***/ "./node_modules/next/head.js":
-/*!***********************************!*\
-  !*** ./node_modules/next/head.js ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ "./node_modules/style-value-types/dist/style-value-types.es.js":
+false,
 
-module.exports = __webpack_require__(/*! ./dist/lib/head */ "./node_modules/next/dist/lib/head.js")
+/***/ "./node_modules/stylefire/dist/stylefire.es.js":
+false,
 
-
-/***/ }),
+/***/ "./node_modules/tslib/tslib.es6.js":
+false,
 
 /***/ "./pages/index.js":
 /*!************************!*\
@@ -84,16 +42,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _fonts_monoton_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../fonts/monoton.css */ "./fonts/monoton.css");
 /* harmony import */ var _fonts_monoton_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_fonts_monoton_css__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _fonts_work_sans_black_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../fonts/work-sans-black.css */ "./fonts/work-sans-black.css");
-/* harmony import */ var _fonts_work_sans_black_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_fonts_work_sans_black_css__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _fonts_work_sans_bold_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../fonts/work-sans-bold.css */ "./fonts/work-sans-bold.css");
-/* harmony import */ var _fonts_work_sans_bold_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_fonts_work_sans_bold_css__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _fonts_work_sans_bold_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../fonts/work-sans-bold.css */ "./fonts/work-sans-bold.css");
+/* harmony import */ var _fonts_work_sans_bold_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_fonts_work_sans_bold_css__WEBPACK_IMPORTED_MODULE_5__);
 var _jsxFileName = "/Users/su/Projects/cb/website/pages/index.js";
 
 
 
 
-
+ // import '../fonts/work-sans-black.css'
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
@@ -103,7 +59,13 @@ var _jsxFileName = "/Users/su/Projects/cb/website/pages/index.js";
       lineNumber: 9
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_head__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     style: {
       position: 'absolute',
       top: '0',
@@ -113,7 +75,7 @@ var _jsxFileName = "/Users/su/Projects/cb/website/pages/index.js";
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 11
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -129,7 +91,7 @@ var _jsxFileName = "/Users/su/Projects/cb/website/pages/index.js";
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 20
     },
     __self: this
   }, "CONTACT US")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -139,51 +101,21 @@ var _jsxFileName = "/Users/su/Projects/cb/website/pages/index.js";
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 35
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    alt: "Crowdbit - EVENT. TECH. NEXT.",
+    src: "/static/logo.png",
     style: {
-      fontFamily: 'Monoton',
-      fontWeight: 'normal',
-      color: '#B2F3F9',
-      fontSize: '180px',
-      textAlign: 'center'
+      width: '100%'
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 38
     },
     __self: this
-  }, "C"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    style: {
-      fontFamily: 'Work Sans',
-      color: '#FFDC88',
-      fontWeight: '900',
-      fontSize: '65px',
-      textAlign: 'center',
-      margin: '0'
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48
-    },
-    __self: this
-  }, "Crowdbit"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    style: {
-      fontFamily: 'Work Sans',
-      fontWeight: '700',
-      color: 'white',
-      fontSize: '15px',
-      textAlign: 'right',
-      margin: '0'
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 60
-    },
-    __self: this
-  }, "EVENT. TECH. NEXT.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     style: {
       fontFamily: 'Monoton',
       fontWeight: 'normal',
@@ -193,7 +125,7 @@ var _jsxFileName = "/Users/su/Projects/cb/website/pages/index.js";
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73
+      lineNumber: 44
     },
     __self: this
   }, "Coming Soon"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -210,11 +142,45 @@ var _jsxFileName = "/Users/su/Projects/cb/website/pages/index.js";
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84
+      lineNumber: 55
     },
     __self: this
   }, "\xA9 2019 Crowdbit Limited."));
-});
+}); // <div
+//   style={{
+//     fontFamily: 'Monoton',
+//     fontWeight: 'normal',
+//     color: '#B2F3F9',
+//     fontSize: '180px',
+//     textAlign: 'center',
+//   }}
+// >
+//   C
+// </div>
+// <h1
+//   style={{
+//     fontFamily: 'Work Sans',
+//     color: '#FFDC88',
+//     fontWeight: '900',
+//     fontSize: '65px',
+//     textAlign: 'center',
+//     margin: '0',
+//   }}
+// >
+//   Crowdbit
+// </h1>
+// <h2
+//   style={{
+//     fontFamily: 'Work Sans',
+//     fontWeight: '700',
+//     color: 'white',
+//     fontSize: '15px',
+//     textAlign: 'right',
+//     margin: '0',
+//   }}
+// >
+//   EVENT. TECH. NEXT.
+// </h2>
     (function (Component, route) {
       if(!Component) return
       if (false) {}
@@ -238,4 +204,4 @@ var _jsxFileName = "/Users/su/Projects/cb/website/pages/index.js";
 /***/ })
 
 })
-//# sourceMappingURL=index.js.95c424a14df2e889e70a.hot-update.js.map
+//# sourceMappingURL=index.js.760570c4ae52ec90d8fd.hot-update.js.map
