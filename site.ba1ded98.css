@@ -4670,6 +4670,14 @@
     height: 1px;
     background: linear-gradient( 90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.1) 7%, rgba(255, 255, 255, 0.1) 93%, rgba(255, 255, 255, 0) 100% );
   }
+  @media (pointer: coarse) {
+    .frosted-strip {
+      background-image: linear-gradient( var(--color-tuna-800) 0, var(--color-tuna-800) 30px, color-mix( in oklab, oklch(27.341% 0.02762 290.56) 20%, transparent ) 89px );
+      @supports (color: color-mix(in lab, red, red)) {
+        background-image: linear-gradient( var(--color-tuna-800) 0, var(--color-tuna-800) 30px, color-mix( in oklab, var(--color-tuna-800) 20%, transparent ) 89px );
+      }
+    }
+  }
   .doc {
     --tw-prose-body: var(--color-smoke-300);
     --tw-prose-headings: #fff;
