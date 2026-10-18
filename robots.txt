@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://crowdbit.tech/sitemap.xml
